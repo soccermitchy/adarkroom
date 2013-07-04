@@ -108,7 +108,7 @@ var Engine = {
 		Notifications.init();
 		Events.init();
 		Room.init();
-		
+		Cheat.warn();
 		if(Engine.storeAvailable('wood')) {
 			Outside.init();
 		}
